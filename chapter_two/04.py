@@ -27,3 +27,11 @@ print_out(1, 2)
 print_out(3, 2)
 print_out(4, 2)
 print_out(2, 1)
+
+
+def degrees_to_radians(degrees):
+    return degrees * (pi / 180)
+
+
+def unit_vector_degrees(degrees):
+    return cos(degrees_to_radians(degrees)), sin(degrees_to_radians(degrees))
